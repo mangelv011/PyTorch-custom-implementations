@@ -1,0 +1,57 @@
+# Ignore data, runs, cache, and all models except best_model.pt
+
+# Data and runs folders
+**/data/
+**/runs/
+
+# Ignore all files in models except best_model.pt
+**/models/*
+!**/models/best_model.pt
+
+# Cache folders
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.venv/
+
+**/.vscode/
+
+# Output and checkpoint files
+*.csv
+*.out
+*.parquet
+*.xlsx
+*.json
+*.pkl
+*.pt
+*.ini
+*.zip
+nohup.out
+*.tfevents.*
+
+# Python cache
+*.pyc
+
+# Misc
+*.log
+
+# Remove individual project gitignores
+# Only this root .gitignore should be used
+*.parquet
+*.xlsx
+*.json
+*.pkl
+*.pt
+*.ini
+*.zip
+nohup.out
+*.tfevents.*
+
+# Python cache
+*.pyc
+
+# Misc
+*.log
+
+# Remove individual project gitignores
+# Only this root .gitignore should be used
