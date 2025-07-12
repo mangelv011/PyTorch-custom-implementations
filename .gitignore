@@ -1,13 +1,3 @@
-# Ignore data, runs, cache, and all models except best_model.pt
-
-# Data and runs folders
-**/data/
-**/runs/
-
-# Ignore all files in models except best_model.pt
-**/models/*
-!**/models/best_model.pt
-
 # Cache folders
 **/__pycache__/
 **/.pytest_cache/
