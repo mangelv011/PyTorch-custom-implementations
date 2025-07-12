@@ -20,6 +20,5 @@ This repository contains several deep learning projects and custom PyTorch imple
 
 
 ## Author
-- Miguel Ángel Vallejo
-
+- Miguel Ángel Vallejo ([GitHub](https://github.com/mangelv011)) 
 
